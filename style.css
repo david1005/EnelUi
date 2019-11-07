@@ -1,0 +1,55 @@
+.card {
+  position: relative;
+  top: 60px;
+  left: 120px;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.card2{
+  position: relative;
+  top: -300px;
+  left: 550px;
+  width: 500px;
+}
+
+.card3{
+  position: relative;
+  top: -620px;
+  left: 950px;
+  width: 500px;
+}
+
+.serv{
+  position: relative;
+  top: -600px;
+  left: 600px;
+  width: 500px;
+}
+
+.not{
+  text-align: center;
+  position: relative;
+  top: -500px;
+  left: 440px;
+  width: 500px; 
+}
+.not1{
+
+  position: left;
+  top: -500px;
+  left: 440px;
+  width: 500px; 
+  
+}
+
+.figure{
+  width: 300px;
+  height: 300px;
+  left: 400px;
+  top: -1000px;
+}
+
+
+
