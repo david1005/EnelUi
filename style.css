@@ -276,6 +276,9 @@ img {
       bottom: 30px;
       right: 30px; } }
 
+
+
+   
 /* Essence Button */
 .academy-btn {
   display: inline-block;
@@ -891,7 +894,7 @@ img {
     height: 110px;
     background: #61ba6d;
     background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to right, #6361ba, #3153c3);
     position: absolute;
     bottom: -60px;
     -webkit-transform: translateX(-50%);
