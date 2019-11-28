@@ -1,0 +1,12 @@
+.contraste{
+    color: yellow !important;
+    background-color: black;
+ }
+ .contrasteimportant{
+    color: yellow !important;
+    background-color: black !important;
+ }
+
+.aumentarfonte{
+    font-size: 26px !important;
+}

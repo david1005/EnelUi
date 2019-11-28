@@ -1,5 +1,5 @@
 var map;
-var latlng = new google.maps.LatLng(40.730610, -73.935242);
+var latlng = new google.maps.LatLng(-3.748169, -38.545669);
 var stylez = [{
     featureType: "all",
     elementType: "all",
@@ -19,7 +19,7 @@ var mapOptions = {
 };
 map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 var geocoder_map = new google.maps.Geocoder();
-var address = 'New york';
+var address = 'Fortaleza';
 geocoder_map.geocode({
     'address': address
 }, function (results, status) {
@@ -29,8 +29,6 @@ geocoder_map.geocode({
             map: map,
             position: map.getCenter()
         });
-    } else {
-        alert("Geocode was not successful for the following reason: " + status);
     }
 });
 var mapType = new google.maps.StyledMapType(stylez, {
