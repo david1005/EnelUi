@@ -31,6 +31,5 @@ $(document).ready(function(){
     $("h2").toggleClass("aumentarfonte");
     $("h1").toggleClass("aumentarfonte");
     $("div").toggleClass("aumentarfonte");
-    $("a").toggleClass("aumentarfonte");
   });
 });
